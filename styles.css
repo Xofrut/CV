@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:rgba(241,241,241)
+}
+
+main{
+   margin: auto;
+   max-width: 850px;
+   
+    
+}
+#presentation{
+    display: flex;
+}
+
+.myAvatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: rgb(0, 0, 0) 4px 4px 14px;
+}
+
+.mainInfo{
+    margin-left: 34px;
+}
+
+.mainInfo p{
+    margin: 5px 0px;
+}
+
+.mainInfo h3{
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+
+#links_skills{
+    margin-top: 20px ;
+    border-radius: 20px;
+    background-color: bisque;
+    padding: 20px;
+    
+}
+
+#links_skills h4,p{
+    margin: 5px 0px;
+}
+
+#links_skills a{
+    text-decoration: none;
+    color:#000
+}
+#links_skills a:hover{
+    color:blue
+}
+
