@@ -166,8 +166,30 @@ table{
         z-index: 100;
         display: flex;
         transition: 0.4s;
+        
     }
     .popUp.open{
         left:0
+    }
+    .popUp .menu{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        
+    }
+    
+    .popUp .menu a{
+        margin-bottom: 25px;
+        display:block
+    }
+    .popUp .menu a:hover{
+        margin-bottom: 25px;
+        background: #3f3f3f;
+    }
+    body.noScroll{
+        overflow: hidden;
     }
 }
