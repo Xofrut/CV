@@ -169,7 +169,9 @@ table{
         
     }
     .popUp.open{
-        left:0
+        left:0;
+        opacity: 75%;
+        
     }
     .popUp .menu{
         display: flex;
@@ -188,6 +190,7 @@ table{
     .popUp .menu a:hover{
         margin-bottom: 25px;
         background: #3f3f3f;
+        color:#fff
     }
     body.noScroll{
         overflow: hidden;
