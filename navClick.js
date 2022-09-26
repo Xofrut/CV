@@ -16,3 +16,5 @@ function butAction(event){
 function renderMenu (node){
     popUp.appendChild(node)
 }
+
+/// comment for commite to solve issue with the pic
